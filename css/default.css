@@ -10811,21 +10811,37 @@ article.article .article-meta {
   overflow-x: auto;
   margin-bottom: 0.5rem;
 }
+article.article .title {
+  border-left: rgba(0,133,226,0.631) 6px solid;
+  margin-left: -1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.25rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  font-size: 2em;
+  font-weight: bold;
+}
 article.article .content {
   word-wrap: break-word;
   font-size: 1.1rem;
+  letter-spacing: 0.02rem;
 }
 article.article .content h1 {
   font-size: 1.75em;
+  font-weight: bold;
 }
 article.article .content h2 {
   font-size: 1.5em;
+  font-weight: bold;
 }
 article.article .content h3 {
   font-size: 1.25em;
+  font-weight: bold;
 }
 article.article .content h4 {
   font-size: 1.125em;
+  font-weight: bold;
 }
 article.article .content h5 {
   font-size: 1em;
@@ -11411,6 +11427,10 @@ figure.highlight.foldable div.level-left {
   #toc-mask.is-active {
     display: block;
   }
+  #toc {
+    max-height: calc(100vh - 22px);
+    overflow-y: scroll;
+  }
 }
 .donate {
   position: relative;
@@ -11641,6 +11661,10 @@ figure.highlight.foldable div.level-left {
   background-color: #276cda;
 }
 @media screen and (min-width: 1280px) {
+  .is-3-column .container {
+    max-width: 1216px;
+    width: 1216px;
+  }
   .is-1-column .container,
   .is-2-column .container {
     max-width: 960px;
@@ -11648,6 +11672,10 @@ figure.highlight.foldable div.level-left {
   }
 }
 @media screen and (min-width: 1472px) {
+  .is-3-column .container {
+    max-width: 1344px;
+    width: 1344px;
+  }
   .is-2-column .container {
     max-width: 1152px;
     width: 1152px;
