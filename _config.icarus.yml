@@ -1,20 +1,16 @@
 version: 5.1.0
 variant: default
-logo: /img/logo.svg
+logo: /img/logo_new.svg
 head:
-    favicon: /img/favicon.svg
+    favicon: /img/favicon_new.svg
     manifest:
         name: Icaurs - Hexo Theme
         short_name: Icarus
         start_url: 
-        theme_color: "#f7f7f7"
-        background_color: "#f7f7f7"
+        theme_color: '#f7f7f7'
+        background_color: '#f7f7f7'
         display: standalone
-        icons:
-            -
-                src: ''
-                sizes: ''
-                type: 
+        icons: 
     open_graph:
         title: 
         type: blog
@@ -34,11 +30,8 @@ head:
         description: 
         url: 
         author: 
-        publisher: 
-        publisher_logo: 
         image: 
-    meta:
-        - ''
+    meta: 
     rss: 
 navbar:
     menu:
@@ -47,67 +40,38 @@ navbar:
         Categories: /categories
         Tags: /tags
         About: /about
-    links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
 footer:
     links:
         Creative Commons:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: https://creativecommons.org/licenses/by/4.0/
+        Discuss on GitHub:
+            icon: fas fa-comments
+            url: https://github.com/sols11/sols11.github.io
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/sols11/sols11.github.io
 article:
     highlight:
         theme: atom-one-light
         clipboard: true
         fold: unfolded
     readtime: true
-    update_time: true
+    update_time: false
     licenses:
         Creative Commons:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
-        Attribution:
-            icon: fab fa-creative-commons-by
-            url: https://creativecommons.org/licenses/by/4.0/
-        Noncommercial:
-            icon: fab fa-creative-commons-nc
-            url: https://creativecommons.org/licenses/by-nc/4.0/
+        CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/
 search:
     type: insight
-    index_pages: true
 comment:
     type: disqus
-    shortname: ''
-donates:
-    -
-        type: afdian
-        url: ''
-    -
-        type: alipay
-        qrcode: ''
-    -
-        type: buymeacoffee
-        url: ''
-    -
-        type: patreon
-        url: ''
-    -
-        type: paypal
-        business: ''
-        currency_code: USD
-    -
-        type: wechat
-        qrcode: ''
+    shortname: 'garciaanotts'
+    count: true
 share:
     type: sharethis
-    install_url: ''
+    install_url: //platform-api.sharethis.com/js/sharethis.js#property=5ab6f60ace89f00013641890&product=inline-share-buttons
 sidebar:
     left:
         sticky: false
@@ -118,34 +82,28 @@ widgets:
         position: left
         type: profile
         author: Kira
-        author_title: 更新完毕，博客输出ing...
-        location: BeiJing
-        avatar: 
+        author_title: UE5 Development Engineer
+        location: Elysium, in the Blue Sky
+        avatar: /img/avatar.jpg
         avatar_rounded: false
         gravatar: 
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/sols11
         social_links:
             Github:
                 icon: fab fa-github
                 url: https://github.com/sols11
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
-            Twitter:
-                icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
+            LinkedIn:
+                icon: fab fa-linkedin
+                url: https://www.linkedin.com/in/garcia-anotts-b984ba145/
+            bilibili:
+                icon: fab fa-bilibili
+                url: https://space.bilibili.com/516862/dynamic
+            zhihu:
+                icon: fab fa-zhihu
+                url: https://www.zhihu.com/people/Gealach/posts
             RSS:
                 icon: fas fa-rss
                 url: /
-    -
-        position: left
-        type: toc
-        index: true
-        collapsed: true
-        depth: 3
     -
         position: left
         type: archives
@@ -153,8 +111,14 @@ widgets:
         position: left
         type: links
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            Uynad的年一站: https://uynad.github.io/
+            Kindem的博客: https://www.kindem.xyz/
+            马三的博客: https://www.cnblogs.com/msxh/
+            水木清华: https://www.mysmth.net/nForum/#!mainpage
+            Pinterest: https://www.pinterest.com/
+            Mixamo: https://www.mixamo.com/#/
+            Pixiv: https://www.pixiv.net/
+            StackOverflow: https://stackoverflow.com/
     -
         position: right
         type: recent_posts
@@ -164,25 +128,6 @@ widgets:
     -
         position: right
         type: tags
-        order_by: name
-        amount: 
-        show_count: true
-    -
-        position: left
-        type: subscribe_email
-        description: 
-        feedburner_id: ''
-    -
-        position: left
-        type: adsense
-        client_id: ''
-        slot_id: ''
-    -
-        position: left
-        type: followit
-        description: 
-        action_url: ''
-        verification_code: ''
 plugins:
     animejs: true
     back_to_top: true
@@ -202,12 +147,12 @@ plugins:
         policyLink: https://www.cookiesandyou.com/
     gallery: true
     google_analytics:
-        tracking_id: 
+        tracking_id: UA-72437521-5
     hotjar:
         site_id: 
     katex: false
     mathjax: false
-    outdated_browser: false
+    outdated_browser: true
     progressbar: true
     statcounter:
         project: 

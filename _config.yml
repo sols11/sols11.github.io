@@ -28,11 +28,11 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -60,7 +60,21 @@ include: null
 exclude: null
 ignore: null
 theme: icarus
+disqus:
+  enable: true
+  shortname: 'garciaanotts'
+  count: true
 deploy: 
   type: git
   repo: https://github.com/sols11/sols11.github.io.git
   branch: main
+# 谷歌、百度站点地图生成
+Plugins:
+- hexo-generator-baidu-sitemap
+- hexo-generator-sitemap
+
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
+
