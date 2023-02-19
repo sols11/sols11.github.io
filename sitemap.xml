@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://garciaanotts.cc/2023/02/16/Thinking/Guide/</loc>
+    <loc>https://garciaanotts.cc/about/Tutor.html</loc>
     
-    <lastmod>2023-02-18</lastmod>
+    <lastmod>2023-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://garciaanotts.cc/2023/02/15/Thinking/Degree/</loc>
     
-    <lastmod>2023-02-18</lastmod>
+    <lastmod>2023-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,16 @@
   <url>
     <loc>https://garciaanotts.cc/2023/02/18/Kira's%20Blog/</loc>
     
-    <lastmod>2023-02-18</lastmod>
+    <lastmod>2023-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://garciaanotts.cc/README.html</loc>
+    
+    <lastmod>2023-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,16 +40,7 @@
   <url>
     <loc>https://garciaanotts.cc/about/index.html</loc>
     
-    <lastmod>2023-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://garciaanotts.cc/baidu_verify_codeva-cHHc0zPxDL.html</loc>
-    
-    <lastmod>2023-02-18</lastmod>
+    <lastmod>2023-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +49,7 @@
 
   <url>
     <loc>https://garciaanotts.cc/</loc>
-    <lastmod>2023-02-18</lastmod>
+    <lastmod>2023-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,14 +57,14 @@
   
   <url>
     <loc>https://garciaanotts.cc/tags/think/</loc>
-    <lastmod>2023-02-18</lastmod>
+    <lastmod>2023-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://garciaanotts.cc/tags/0/</loc>
-    <lastmod>2023-02-18</lastmod>
+    <loc>https://garciaanotts.cc/tags/1/</loc>
+    <lastmod>2023-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -73,21 +73,14 @@
   
   <url>
     <loc>https://garciaanotts.cc/categories/Dev/</loc>
-    <lastmod>2023-02-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://garciaanotts.cc/categories/%E4%B8%AD%E8%8B%B1%E5%8F%8C%E8%AF%AD/</loc>
-    <lastmod>2023-02-18</lastmod>
+    <lastmod>2023-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://garciaanotts.cc/categories/%E4%B8%AD%E6%96%87/</loc>
-    <lastmod>2023-02-18</lastmod>
+    <lastmod>2023-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
